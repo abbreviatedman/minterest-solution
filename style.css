@@ -1,0 +1,61 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+#header {
+    height: 15%;
+    background-color: #A8E0FF;
+    text-align: center;
+}
+
+#main {
+    height: 70%;
+    display: flex;
+}
+
+#nav, #sidebar {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav {
+    background-color: #8EE3F5;
+}
+
+#sidebar {
+    background-color: #3E517A;
+
+}
+
+#album {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+    width: 70%;
+    background-color: #70CAD1
+}
+
+#footer {
+    height: 15%;
+    background-color: #B08EA2;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+}
